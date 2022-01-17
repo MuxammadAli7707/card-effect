@@ -13,3 +13,50 @@ body {
   flex-direction: column;
 }
 
+.card-box {
+  width: 300px;
+  height: 390px;
+  position: relative;
+  top: 100px;
+  border-radius: 10px;
+  background-color: silver;
+  background-image: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.8s ease;
+}
+
+
+.card-box:hover {
+  transition: all 0.8s ease;
+  background-size: 600px;
+  background-position: left center;
+  background-image: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg');
+}
+
+.site-title {
+  font-family: sans-serif;
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.site-list {
+  list-style: none;
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  font-size: 20x;
+}
+
+.link {
+  color: #fff;
+}
+
+.card-info {
+  opacity: 0;
+}
